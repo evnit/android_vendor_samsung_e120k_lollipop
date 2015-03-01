@@ -1,3 +1,5 @@
+#B42A
+
 manfid=0x2d0
 prodid=0x0532
 vendid=0x14e4
@@ -24,53 +26,57 @@ sd_gpout=0
 sd_oobonly=1
 
 # 2G PA param
-pa0b0=0x14AA
-pa0b1=0xFDB3
-pa0b2=0xFF6F
+pa0b0=0x148E
+pa0b1=0xFDA0
+pa0b2=0xFF66
 #pa0itssit=62
 rssismf2g=0xa
 rssismc2g=0x3
 rssisav2g=0x7
 
-# rssi params for 5GHz B42_110728
+# rssi params for 5GHz B42A_110801
 #rssismf5g=0x4
 rssismf5g=0xa
 rssismc5g=0x7
 rssisav5g=0x1
+
 #PA parameters for lower band
-pa1lob0=4676
-pa1lob1=64858
-pa1lob2=65301
+pa1lob0=0x16BC
+pa1lob1=0xFC6E
+pa1lob2=0xFF0E
+
 #PA parameters for midband
-pa1b0=4445
-pa1b1=64883
-pa1b2=65310
+pa1b0=0x1780
+pa1b1=0xFC4A
+pa1b2=0xFF07
+
 #PA parameters for high band
-pa1hib0=4567
-pa1hib1=64876
-pa1hib2=65332
+pa1hib0=0x1A0C
+pa1hib1=0xFC1D
+pa1hib2=0xFF51
+
 
 # 2G PA offset
 maxp2ga0=76
 sromrev=3
 cckpo=0
-ofdm2gpo=0x66666662
-mcs2gpo0=0x9999
-mcs2gpo1=0x9999
+ofdm2gpo=0x66666666
+mcs2gpo0=0xaaaa
+mcs2gpo1=0xaaaa
 
 # 5G PA offset
-maxp5ga0=66
-maxp5gla0=66
-maxp5gha0=66
-ofdm5gpo=0x66666666
-ofdm5glpo=0x66666666
-ofdm5ghpo=0x55555555
+maxp5ga0=68
+maxp5gla0=68
+maxp5gha0=68
+ofdm5gpo=0x22222222
+ofdm5glpo=0x22222222
+ofdm5ghpo=0x33333333
 mcs5gpo0=0x6666
 mcs5gpo1=0x6666
 mcs5glpo0=0x6666
 mcs5glpo1=0x6666
-mcs5ghpo0=0x6666
-mcs5ghpo1=0x6666
+mcs5ghpo0=0x7777
+mcs5ghpo1=0x7777
 
 cckPwrOffset=4
 cckdigfilttype=21
