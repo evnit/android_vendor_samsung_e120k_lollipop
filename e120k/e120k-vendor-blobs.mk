@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/e120k/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/samsung/e120k/proprietary/bin/sec-ril:system/bin/sec-ril \
 	vendor/samsung/e120k/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
+	vendor/samsung/e120k/proprietary/lib/modules/exfat_core.ko:system/lib/modules/exfat_core.ko \
+	vendor/samsung/e120k/proprietary/lib/modules/exfat_fs.ko:system/lib/modules/exfat_fs.ko \
 	vendor/samsung/e120k/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/e120k/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/e120k/proprietary/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
